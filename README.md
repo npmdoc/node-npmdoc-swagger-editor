@@ -1,6 +1,6 @@
 # npmdoc-swagger-editor
 
-#### api documentation for  [swagger-editor (v3.0.5)](https://github.com/swagger-api/swagger-editor#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-swagger-editor.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-swagger-editor) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-swagger-editor.svg)](https://travis-ci.org/npmdoc/node-npmdoc-swagger-editor)
+#### basic api documentation for  [swagger-editor (v3.0.7)](https://github.com/swagger-api/swagger-editor#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-swagger-editor.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-swagger-editor) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-swagger-editor.svg)](https://travis-ci.org/npmdoc/node-npmdoc-swagger-editor)
 
 #### Swagger Editor
 
@@ -68,7 +68,7 @@
         "react-file-download": "^0.3.2",
         "react-redux": "^4.x.x",
         "redux": "^3.x.x",
-        "swagger-ui": "^3.0.6",
+        "swagger-ui": "^3.0.7",
         "webpack-dev-server": "1.14.0"
     },
     "description": "Swagger Editor",
@@ -128,10 +128,10 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "f1a9b6f95cf9b5a6870424efadcd7265f55a08a8",
-        "tarball": "https://registry.npmjs.org/swagger-editor/-/swagger-editor-3.0.5.tgz"
+        "shasum": "c8722a99b4293bb7b860531e2795f101dd8d4293",
+        "tarball": "https://registry.npmjs.org/swagger-editor/-/swagger-editor-3.0.7.tgz"
     },
-    "gitHead": "6bf7d653ab5fd42ced484476f397e1e42efbc850",
+    "gitHead": "67bf5a2c0f0c09ad01380eee7790f01608b114cb",
     "homepage": "https://github.com/swagger-api/swagger-editor#readme",
     "license": "Apache-2.0",
     "main": "dist/swagger-editor.js",
@@ -178,7 +178,8 @@
         "test-in-node": "npm run lint-errors && npm run just-test-in-node",
         "watch": "webpack --config webpack.config.js --watch --progress"
     },
-    "version": "3.0.5"
+    "version": "3.0.7",
+    "bin": {}
 }
 ```
 
